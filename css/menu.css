@@ -1,0 +1,40 @@
+ul li {
+    list-style-type: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    width: 80px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    /*background-color: black;*/
+    text-align: center;
+}
+a:hover {
+    background-color: red;
+    color: #987495;
+}
+.a1:hover {
+    background-color: blue;
+    color: yellow;
+}
+.a1 {
+    color: black;
+    /*background-color: gray;*/
+    background-image: url("../img/down.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.u1 {
+    display: none;
+}
+
+.hl1 {
+    float: left;
+}
